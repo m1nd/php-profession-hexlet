@@ -1,0 +1,48 @@
+POST /upload HTTP/1.1
+Host: hexlet.local
+Content-Length: 15
+Content-Type: text/plain
+
+my request body
+---------
+POST /session/new HTTP/1.1
+Host: hexlet.local
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+
+username=admin&password=secret
+----------
+GET /stream HTTP/1.1
+Host: hexlet.local
+---------
+GET /?key=value&another_key=another_value HTTP/1.1
+HOST: hexlet.local
+---------
+GET /admin HTTP/1.1
+HOST: hexlet.local
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+----------
+GET /account HTTP/1.1
+Host: hexlet.local
+Cookie: name=user; secret=secret_hash
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
